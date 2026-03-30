@@ -1,0 +1,189 @@
+/* Import Figtree fonts */
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* MOBILE FIRST - 375px */
+body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color:#fef08a;
+  color: hsl(0, 0%, 42%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 375px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.625rem;
+  overflow: hidden;
+  border: 3px solid hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Label - Mobile */
+.card-lebel {
+  font-weight: 500;
+  font-size: clamp(0.8125rem, 2vw, 0.9375rem);
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  width: fit-content;
+}
+
+/* Time/Date - Mobile */
+.time-table {
+  font-weight: 500;
+  font-size: clamp(0.875rem, 2.2vw, 1rem);
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+}
+
+/* Title - Mobile */
+.card-title {
+  font-weight: 800;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: hsl(0, 0%, 7%);
+  line-height: 1.4;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.card-title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+/* Description - Mobile */
+.card-description {
+  font-weight: 500;
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  color: hsl(0, 0%, 42%);
+  line-height: 1.6;
+}
+
+/* Author - Mobile */
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 800;
+  font-size: clamp(0.875rem, 2.2vw, 1.0625rem);
+  color: hsl(0, 0%, 7%);
+}
+
+.card-author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* TABLET - 768px and above */
+@media (min-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+
+  .card {
+    max-width: 450px;
+  }
+
+  .card-content {
+    padding: 2rem;
+    gap: 1.25rem;
+  }
+
+  .card-lebel {
+    padding: 0.5rem 1rem;
+  }
+
+  .card-author {
+    gap: 1rem;
+  }
+}
+
+/* DESKTOP - 1440px and above */
+@media (min-width: 1440px) {
+  body {
+    padding: 2.5rem;
+    min-height: 100vh;
+  }
+
+  .card {
+    max-width: 600px;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  .card-content {
+    padding: 2.5rem;
+    gap: 1.5rem;
+  }
+
+  .card-lebel {
+    padding: 0.625rem 1.25rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .card-description {
+    line-height: 1.8;
+  }
+
+  .card-author {
+    gap: 1.25rem;
+  }
+
+  .card-author img {
+    width: 48px;
+    height: 48px;
+  }
+}

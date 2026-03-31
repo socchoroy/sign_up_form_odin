@@ -94,17 +94,6 @@ Through this project, I learned and practiced:
 ✅ **Code Organization** - Clean, maintainable code structure  
 ✅ **Git & GitHub** - Version control and collaboration
 
-## 🖼️ Screenshots
-
-[Add your project screenshots here]
-
-### Desktop View
-
-![Desktop version of sign-up page](<img width="1252" height="884" alt="image" src="https://github.com/user-attachments/assets/5a63f248-6b1a-489e-b6e4-f344c1d48a9b" />)
-
-### Mobile View
-
-![Mobile version of sign-up page](./screenshots/mobile.png)
 
 ## 💡 Key Takeaways
 

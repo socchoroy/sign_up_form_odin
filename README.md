@@ -100,7 +100,7 @@ Through this project, I learned and practiced:
 
 ### Desktop View
 
-![Desktop version of sign-up page](./screenshots/desktop.png)
+![Desktop version of sign-up page](<img width="1252" height="884" alt="image" src="https://github.com/user-attachments/assets/5a63f248-6b1a-489e-b6e4-f344c1d48a9b" />)
 
 ### Mobile View
 
@@ -147,10 +147,8 @@ This is a personal learning project, but constructive feedback is always welcome
 
 ## 👨‍💻 Author
 
-**Your Name**
+Soccho Roy
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- The Odin Project: [Your Profile]
 
 ## 📧 Contact
 
